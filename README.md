@@ -4,7 +4,7 @@ Projeto desenvolvido utilizando <b>Spring Boot 2.3.1.RELEASE</b> e banco de dado
 Desenvolvi uma arquitetura mais simples e produtiva do que a forma que foi apresentada no curso, com isso tive a economia 
 de mais ou menos 50 linhas de código por CRUD, são 11 CRUDs, dessa forma economizamos **550 linhas de código**.
 
-Roda na porta <b>8081</b>
+O projeto roda na porta <b>8081</b>
 
 Caminho para acessar o swagger : http://localhost:8081/swagger-ui
 
