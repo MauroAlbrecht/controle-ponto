@@ -15,13 +15,21 @@ import javax.persistence.Id;
 @Entity
 @Audited
 public class Empresa {
+
     @Id
     private Long id;
+
     private String descricao;
+
     private String cnpj;
+
     private String endereco;
+
     private String bairo;
+
     private String cidade;
+
     private String estado;
+
     private String telefone;
 }

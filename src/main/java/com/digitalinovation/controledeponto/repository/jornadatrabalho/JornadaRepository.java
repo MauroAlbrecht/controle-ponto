@@ -1,4 +1,4 @@
-package com.digitalinovation.controledeponto.repository;
+package com.digitalinovation.controledeponto.repository.jornadatrabalho;
 
 import com.digitalinovation.controledeponto.model.JornadaTrabalho;
 import org.springframework.data.jpa.repository.JpaRepository;

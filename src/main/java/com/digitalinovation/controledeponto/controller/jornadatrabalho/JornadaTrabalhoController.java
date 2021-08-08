@@ -1,7 +1,7 @@
-package com.digitalinovation.controledeponto.controller;
+package com.digitalinovation.controledeponto.controller.jornadatrabalho;
 
 import com.digitalinovation.controledeponto.model.JornadaTrabalho;
-import com.digitalinovation.controledeponto.service.JornadaService;
+import com.digitalinovation.controledeponto.service.jornadatrabalho.JornadaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,7 +1,7 @@
-package com.digitalinovation.controledeponto.service;
+package com.digitalinovation.controledeponto.service.jornadatrabalho;
 
 import com.digitalinovation.controledeponto.model.JornadaTrabalho;
-import com.digitalinovation.controledeponto.repository.JornadaRepository;
+import com.digitalinovation.controledeponto.repository.jornadatrabalho.JornadaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

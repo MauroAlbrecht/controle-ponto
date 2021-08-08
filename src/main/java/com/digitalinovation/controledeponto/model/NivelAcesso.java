@@ -15,7 +15,9 @@ import javax.persistence.Id;
 @Entity
 @Audited
 public class NivelAcesso {
+
     @Id
     private long id;
+
     private String descricao;
 }
