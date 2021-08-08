@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 @SuppressWarnings({"unchecked", "SpringJavaInjectionPointsAutowiringInspection"})
-public abstract class AbstractController<S extends AbstractService, E extends Serializable> {
+public abstract class AbstractController<E extends Serializable, S extends AbstractService> {
 
     @Autowired
     private S service;

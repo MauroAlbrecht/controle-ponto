@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/localidade")
-public class LocalidadeController extends AbstractController<LocalidadeService, Localidade> {
+public class LocalidadeController extends AbstractController<Localidade, LocalidadeService> {
 
 }

@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/usuario")
-public class UsuarioController extends AbstractController<UsuarioService, Usuario> {
+public class UsuarioController extends AbstractController<Usuario, UsuarioService> {
 
 }

@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/categoriausuario")
-public class CategoriaUsuarioController extends AbstractController<CategoriaUsuarioService, CategoriaUsuario> {
+public class CategoriaUsuarioController extends AbstractController<CategoriaUsuario, CategoriaUsuarioService> {
 
 }

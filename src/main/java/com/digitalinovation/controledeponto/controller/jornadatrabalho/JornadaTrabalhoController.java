@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/jornada")
-public class JornadaTrabalhoController  extends AbstractController<JornadaService, JornadaTrabalho> {
+public class JornadaTrabalhoController extends AbstractController<JornadaTrabalho, JornadaService> {
 
 }

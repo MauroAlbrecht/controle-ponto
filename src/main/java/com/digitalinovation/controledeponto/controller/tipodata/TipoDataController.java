@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/tipodata")
-public class TipoDataController extends AbstractController<TipoDataService, TipoData> {
+public class TipoDataController extends AbstractController<TipoData, TipoDataService> {
 
 }

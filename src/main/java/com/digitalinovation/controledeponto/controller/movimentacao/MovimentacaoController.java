@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/movimentacao")
-public class MovimentacaoController extends AbstractController<MovimentacaoService, Movimentacao> {
+public class MovimentacaoController extends AbstractController<Movimentacao, MovimentacaoService> {
 
 }

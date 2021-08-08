@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/nivelacesso")
-public class NivelAcessoController extends AbstractController<NivelAcessoService, NivelAcesso> {
+public class NivelAcessoController extends AbstractController<NivelAcesso, NivelAcessoService> {
 
 }

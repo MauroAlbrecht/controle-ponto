@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/calendario")
-public class CalendarioController extends AbstractController<CalendarioService, Calendario> {
+public class CalendarioController extends AbstractController<Calendario, CalendarioService> {
 
 }
