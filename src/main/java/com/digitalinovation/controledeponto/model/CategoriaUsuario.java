@@ -5,6 +5,7 @@ import org.hibernate.envers.Audited;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.io.Serializable;
 
 @Getter
 @Setter
@@ -14,7 +15,7 @@ import javax.persistence.Id;
 @Builder
 @Entity
 @Audited
-public class CategoriaUsuario {
+public class CategoriaUsuario implements Serializable {
 
     @Id
     private long id;

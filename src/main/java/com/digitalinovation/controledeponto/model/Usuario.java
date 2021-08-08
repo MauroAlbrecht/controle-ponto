@@ -6,6 +6,7 @@ import org.hibernate.envers.Audited;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
@@ -17,7 +18,7 @@ import java.time.LocalDateTime;
 @Builder
 @Entity
 @Audited
-public class Usuario {
+public class Usuario implements Serializable {
     @Id
     private Long id;
 
@@ -33,7 +34,7 @@ public class Usuario {
     private NivelAcesso nivelAcesso;
 
     @ManyToOne
-    private  JornadaTrabalho jornadaTrabalho;
+    private JornadaTrabalho jornadaTrabalho;
 
     private BigDecimal tolerancia;
 
