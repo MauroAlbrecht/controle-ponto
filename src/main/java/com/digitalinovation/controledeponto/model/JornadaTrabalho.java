@@ -6,6 +6,7 @@ import org.hibernate.envers.Audited;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.io.Serializable;
 
 
 @Getter
@@ -16,7 +17,7 @@ import javax.persistence.Id;
 @Builder
 @Entity
 @Audited
-public class JornadaTrabalho {
+public class JornadaTrabalho implements Serializable {
 
     @Id
     @GeneratedValue
