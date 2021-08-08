@@ -1,6 +1,6 @@
 package com.digitalinovation.controledeponto.controller.tipodata;
 
-import com.digitalinovation.controledeponto.abstracts.AbstractController;
+import com.digitalinovation.controledeponto.controller.abstracts.AbstractController;
 import com.digitalinovation.controledeponto.model.TipoData;
 import com.digitalinovation.controledeponto.service.tipodata.TipoDataService;
 import org.springframework.web.bind.annotation.RequestMapping;

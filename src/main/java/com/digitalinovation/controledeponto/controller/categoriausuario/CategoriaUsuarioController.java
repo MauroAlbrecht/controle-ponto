@@ -1,6 +1,6 @@
 package com.digitalinovation.controledeponto.controller.categoriausuario;
 
-import com.digitalinovation.controledeponto.abstracts.AbstractController;
+import com.digitalinovation.controledeponto.controller.abstracts.AbstractController;
 import com.digitalinovation.controledeponto.model.CategoriaUsuario;
 import com.digitalinovation.controledeponto.service.categoriausuario.CategoriaUsuarioService;
 import org.springframework.web.bind.annotation.RequestMapping;

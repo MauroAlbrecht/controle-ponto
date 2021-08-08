@@ -1,4 +1,4 @@
-package com.digitalinovation.controledeponto.abstracts;
+package com.digitalinovation.controledeponto.controller.abstracts;
 
 import com.digitalinovation.controledeponto.model.JornadaTrabalho;
 import com.digitalinovation.controledeponto.service.abstracts.AbstractService;

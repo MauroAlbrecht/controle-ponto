@@ -1,6 +1,6 @@
 package com.digitalinovation.controledeponto.controller.empresa;
 
-import com.digitalinovation.controledeponto.abstracts.AbstractController;
+import com.digitalinovation.controledeponto.controller.abstracts.AbstractController;
 import com.digitalinovation.controledeponto.model.Empresa;
 import com.digitalinovation.controledeponto.service.empresa.EmpresaService;
 import org.springframework.web.bind.annotation.RequestMapping;

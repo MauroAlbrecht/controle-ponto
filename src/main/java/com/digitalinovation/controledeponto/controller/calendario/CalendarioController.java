@@ -1,6 +1,6 @@
 package com.digitalinovation.controledeponto.controller.calendario;
 
-import com.digitalinovation.controledeponto.abstracts.AbstractController;
+import com.digitalinovation.controledeponto.controller.abstracts.AbstractController;
 import com.digitalinovation.controledeponto.model.Calendario;
 import com.digitalinovation.controledeponto.service.calendario.CalendarioService;
 import org.springframework.web.bind.annotation.RequestMapping;
