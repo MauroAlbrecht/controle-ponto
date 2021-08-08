@@ -4,7 +4,9 @@ import lombok.*;
 import org.hibernate.envers.Audited;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.io.Serializable;
 
 @Getter
 @Setter
@@ -14,9 +16,10 @@ import javax.persistence.Id;
 @Builder
 @Entity
 @Audited
-public class Empresa {
+public class Empresa implements Serializable {
 
     @Id
+    @GeneratedValue
     private Long id;
 
     private String descricao;

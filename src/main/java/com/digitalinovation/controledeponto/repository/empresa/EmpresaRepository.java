@@ -1,10 +1,9 @@
 package com.digitalinovation.controledeponto.repository.empresa;
 
 import com.digitalinovation.controledeponto.model.Empresa;
-import com.digitalinovation.controledeponto.model.JornadaTrabalho;
-import org.springframework.data.jpa.repository.JpaRepository;
+import com.digitalinovation.controledeponto.repository.abstracts.AbstractRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface EmpresaRepository extends JpaRepository<Empresa, Long> {
+public interface EmpresaRepository extends AbstractRepository<Empresa> {
 }
