@@ -16,20 +16,21 @@ import java.time.LocalDateTime;
 @EqualsAndHashCode
 @Builder
 @Entity
-public class BancoHoras {
+public class BancoHoras implements Serializable {
 
 
     @EqualsAndHashCode
     @Embeddable
     @Getter
     @Setter
-    public  class BancoHorasId implements Serializable{
+    public class BancoHorasId implements Serializable {
         private long idBancoHoras;
         private long idMovimentacao;
         private long idUsuario;
 
 
     }
+
     @EmbeddedId
     private BancoHorasId bancoHorasId;
 
