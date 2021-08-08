@@ -1,4 +1,4 @@
-###### Projeto de Controle de Ponto
+### Projeto de Controle de Ponto
 
 Projeto desenvolvido utilizando <b>Spring Boot 2.3.1.RELEASE</b> e banco de dados H2.
 Desenvolvi uma arquitetura mais simples e produtiva do que a forma que foi apresentada no curso, com isso tive a economia 
