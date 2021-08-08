@@ -8,8 +8,22 @@ O projeto roda na porta <b>8081</b>
 
 Caminho para acessar o swagger : http://localhost:8081/swagger-ui
 
-OBS: exemplo de crud mostrado no curso, todo esse código não é necessário da forma como desenvolvi a arquitetura utilizando
-generics e abstracts.
+Exemplo controller do projeto, com a abstração não é necessário ficar criando os métodos de GET, POST, PUT, DELETE, eles
+já estão implementados de forma genérica nas classes abstratas.
+
+    @RestController
+    @RequestMapping("/bancohoras")
+    public class BancoHorasController extends AbstractController<BancoHoras, BancoHorasService> {
+    }
+
+Exemplo service do projeto com abstração
+
+    @Service
+    public class BancoHorasService extends AbstractService<BancoHoras, BancoHorasRepository> {
+    }
+    
+OBS: exemplo de crud mostrado no curso, todo esse código abaixo não é necessário da forma como desenvolvi a arquitetura 
+utilizando generics e abstracts.
 
     //controller
     @Autowired
